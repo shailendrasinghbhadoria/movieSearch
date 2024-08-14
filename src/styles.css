@@ -1,0 +1,141 @@
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+.App {
+  text-align: center;
+}
+body {
+  background: #f2f2f2 !important;
+}
+html {
+  font-size: 65.5%;
+}
+.main_div {
+  font-size: 16px;
+}
+.main_div .addItems {
+  background: #fff;
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.main_div .addItems input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-right: -30px;
+}
+.addItems button {
+  border: none;
+  background: none;
+}
+.items {
+  width: 300px;
+  margin: 10px auto;
+  padding: 6px;
+}
+.items .child_item {
+  background: #97dbd8a1;
+  padding: 8px 6px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.movie-page {
+  box-sizing: border-box;
+}
+.movie-page a {
+  text-decoration: none;
+}
+.movie-page a .card:hover {
+  background-color: #b7b7b7;
+}
+.movie-page a .card:hover h3 {
+  color: var(--bg-vlr);
+  transform: translateY(-1.5rem);
+  display: inline-block;
+}
+.movie-page a .card:hover img {
+  transform: scale(1.1);
+}
+.movie-page a .card {
+  text-align: center;
+  padding: 15px;
+}
+.movie-page a .card img {
+  max-width: 200px;
+  max-height: 220px;
+}
+
+.single-moviePage {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+.single-moviePage .card {
+  background: #959595;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px;
+}
+.single-moviePage .card a {
+  width: 125px;
+  margin: 0 auto;
+  font-size: 16px;
+  background: #0f7a0f;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 6px;
+  color: #fff;
+}
+
+.header {
+  padding: 15px;
+  font-size: 16px;
+  border-bottom: 2px solid #ddd;
+  background: #30446c;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+.searchForm input {
+  padding: 6px;
+  border: 1px solid #aac9f7;
+  border-radius: 8px;
+  width: 300px;
+  font-size: 16px !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
